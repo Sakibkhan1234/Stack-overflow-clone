@@ -1,0 +1,134 @@
+.chatbot {
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    z-index: 1000;
+}
+.chatbot-icon {
+    background-color: transparent; 
+    border: none;
+    border-radius: 50%; 
+    padding: 0; 
+    cursor: pointer;
+}
+.chatbot-video {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    border: 5px solid orange;
+}
+.chatbot-container {
+    width: 400px;
+    max-height: 500px;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chatbot-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.chatbot-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.chat-section, .add-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.btn-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.chatbot-icon:hover {
+    background-color: orange;
+}
+.chatbot-answer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.chatbot-error {
+    color: red;
+    margin-top: 10px;
+}
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.chatbot-2 {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+}
+.chattext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+.co {
+    color: red;
+}
+.otp-auth {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10%;
+}
+.otp-auth h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.otp-auth input[type="email"], .otp-auth input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.otp-auth button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.otp-auth button:hover {
+    background-color: #0056b3;
+}
+.otp-auth p {
+    margin-top: 10px;
+    text-align: center;
+}
+.otp-auth button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.textarea-big{
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,59 @@
+.div-hole{
+    background-color: black;
+    width: 100%;
+    height: 702px;
+}
+  .btn-col{
+    position: relative;
+    padding: 11px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    background-color: red;
+    border: 0;
+    overflow: hidden;
+  }
+  .btn-col input[type='file']
+  {
+    cursor: pointer;
+    position: absolute;
+    transform: scale(5);
+    opacity: 0;
+  }
+  .video-video{
+    border: 1px solid white;
+    margin-left: 23%;
+    margin-top: 4%;
+  }
+  .btn-col{
+    margin-left: 20%;
+    margin-top: 4%;
+  }
+  .div-upload{
+    color: aliceblue;
+     margin-left: 30%;
+     margin-top: -2%;
+  }
+  .div-loading{
+    color: aliceblue;
+     margin-left: 46%;
+     margin-top: 10%;
+     font-size: xx-large;
+  }
+  .h1-player{
+    color: aliceblue;
+      margin-left: 43%;
+      margin-top: 4%;
+  }
+  .select-res{
+     margin-left: -15%;
+     color: white;
+     background-color: black;
+  }
+  .h1-co{
+    color: white;
+    margin-left: 26%;
+    font-size: x-small;
+  }
+  
